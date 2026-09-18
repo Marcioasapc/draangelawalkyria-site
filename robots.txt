@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://draangelawalkyria.com.br/sitemap.xml

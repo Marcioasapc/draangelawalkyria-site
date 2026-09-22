@@ -443,7 +443,7 @@ strong { font-weight: 600; color: var(--ink-deep); }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 45% top;
+  object-position: center center;
   display: block;
 }
 .hero-visual-wrap, .sobre-visual-wrap { display: flex; flex-direction: column; gap: 14px; }
@@ -836,7 +836,7 @@ strong { font-weight: 600; color: var(--ink-deep); }
   box-shadow: 0 24px 48px rgba(27, 46, 71, 0.12);
 }
 .lp-hero-figure img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
-.lp-hero-figure.recorte img { object-fit: cover; object-position: 42% top; transform: scale(1.18); transform-origin: 50% 0; }
+.lp-hero-figure.recorte img { object-fit: cover; object-position: center center; }
 
 .lp-section { padding: 110px 0; }
 .lp-section-light { background: var(--paper); }

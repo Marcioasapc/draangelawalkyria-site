@@ -13,7 +13,7 @@ Site institucional + 3 landing pages + blog, HTML/CSS/JS puro, hospedado na Verc
 
 ## Como editar
 - Textos: direto nos .html. Header e footer do blog ficam em `_header.html` / `_footer.html`.
-- Blog: adicionar um item em `POSTS` dentro de `_build_blog.py` e rodar `python3 _build_blog.py`. Depois incluir a URL no `sitemap.xml`.
+- Blog: hoje só a página inicial ("em breve"). Para publicar artigos, copiar os rascunhos de `_rascunhos_blog.py` para `POSTS` em `_build_blog.py`, rodar `python3 _build_blog.py` e incluir as URLs no `sitemap.xml`.
 - Pré-visualizar: `python3 serve.py 8765` e abrir http://127.0.0.1:8765
 - Publicar: `python3 _deploy.py production` (usa o login do Vercel CLI deste Mac).
 

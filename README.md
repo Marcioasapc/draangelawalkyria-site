@@ -18,7 +18,7 @@ Site institucional + 3 landing pages + blog, HTML/CSS/JS puro, hospedado na Verc
 - Publicar: `python3 _deploy.py production` (usa o login do Vercel CLI deste Mac).
 
 ## Decisões aplicadas (reuniões 08/06 e 24/06 + WhatsApp)
-- Paleta bege + azul-marinho aprovada; salmão só como detalhe (pedido da Angela).
+- Paleta bege + azul-marinho aprovada; salmão só como detalhe. v3 (22/09): degradês, formas orgânicas nas fotos, cards arredondados, revelação ao rolar, contadores e orbes animados (main.js + styles.css).
 - Fonte itálica fina removida (ela achou de difícil leitura) → Playfair Display peso 500.
 - Seção "Por que escolher a Dra. Angela" removida; depoimentos reais do Google no lugar.
 - Aviso "Atendimento particular · Não atendemos convênios" fixo no topo de todas as páginas + CTA final.

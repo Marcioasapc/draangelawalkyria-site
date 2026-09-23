@@ -442,8 +442,8 @@ strong { font-weight: 600; color: var(--ink-deep); }
 .benefits-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .benefit-card { position: relative; padding: 36px 28px; border-radius: var(--r-md); text-align: left; background: linear-gradient(160deg, #fff 0%, var(--paper-light) 100%); border: 1px solid rgba(255,255,255,0.9); box-shadow: var(--shadow-sm); transition: transform var(--transition), box-shadow var(--transition); }
 .benefit-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
-.benefit-icon { width: 40px; height: 40px; border-radius: 12px; margin-bottom: 18px; display: grid; place-items: center; font-size: 0; background: linear-gradient(135deg, var(--blush), var(--coral-soft)); }
-.benefit-icon::before { content: ""; width: 14px; height: 8px; border-left: 2.5px solid var(--coral-deep); border-bottom: 2.5px solid var(--coral-deep); transform: rotate(-45deg) translate(1px, -2px); }
+.benefit-icon { width: 48px; height: 48px; border-radius: 14px; margin-bottom: 18px; display: grid; place-items: center; color: var(--coral-deep); background: linear-gradient(135deg, var(--blush), var(--coral-soft)); }
+.benefit-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .benefit-card h3 { font-family: var(--font-body); font-size: 1.02rem; font-weight: 700; margin-bottom: 10px; }
 .benefit-card p { font-size: 0.98rem; line-height: 1.6; }
 
@@ -459,6 +459,7 @@ strong { font-weight: 600; color: var(--ink-deep); }
 .step-item:hover { transform: translateX(6px); box-shadow: var(--shadow-md); }
 .step-number { width: 52px; height: 52px; border-radius: 16px; display: grid; place-items: center; font-family: var(--font-display); font-size: 1.35rem; color: #fff; background: linear-gradient(135deg, var(--ink), var(--teal)); box-shadow: 0 8px 18px rgba(20,48,79,0.2); }
 .step-number.alerta { background: linear-gradient(135deg, var(--coral), var(--coral-deep)); box-shadow: 0 8px 18px rgba(196,103,90,0.3); }
+.step-number svg { width: 26px; height: 26px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .step-content h3 { font-family: var(--font-body); font-size: 1.02rem; font-weight: 700; margin-bottom: 4px; }
 .step-content p { font-size: 0.98rem; line-height: 1.55; margin: 0; }
 

@@ -33,7 +33,7 @@ def head(title, desc, url, extra=''):
   {extra}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/styles.css?v=20260922d">
+  <link rel="stylesheet" href="/styles.css?v=20260923a">
 </head>
 <body>
 '''
